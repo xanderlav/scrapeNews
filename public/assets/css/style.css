@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    display: flex;
+    background-size: 500px;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+  .articleBody {
+    height: 200px;
+    font-size: 20px;
+    overflow-y: scroll;
+    line-height: 150%;
+  }
+  #btnReadUp {
+    background-color: #3b3e47;
+  }
+  #nameComment {
+    font-weight: bold;
+    background: #777273;
+    color: orange;
+  }
+  .input-field input[type="text"]:focus + label {
+    color: #635f60;
+  }
+  .input-field input[type="text"]:focus {
+    border-bottom: 1px solid #635f60;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  .input-field .prefix.active {
+    color: #635f60;
+  }
+  .topnav {
+    background-color: #61635f;
+  }  
